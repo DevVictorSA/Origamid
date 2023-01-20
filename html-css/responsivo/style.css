@@ -13,6 +13,12 @@ img {
   display: block;
 }
 
+.foto{
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
 a {
   text-decoration: none;
 }
@@ -113,6 +119,7 @@ p {
   padding: 40px;
   align-self: center;
   background-image: url('./img/onda.svg');
+  /* word-break:break-all; */
 }
 
 .vantagens {

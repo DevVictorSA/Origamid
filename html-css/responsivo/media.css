@@ -1,16 +1,44 @@
-@charset "UTF-8";
 
-@media (max-width: 500px){
-  .header{
-    display: block;
+@media (max-width: 1000px){
+  .conteudo-vatagens{
+    grid-template-columns: 1fr;
   }
 
-  .menu{
-    display: none;
+  .subtitulo{
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px){
+  body{
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  header{
+    gap: 20px;
   }
 
   .conteudo{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .introducao{
+    text-align: center;
+    justify-items: center;
+  }
+
+  .introducao::before{
+    display: none;
+  }
+}
+
+@media (max-width: 400px){
+  .subtitulo{
+    font-size: 2rem;
+  }
+
+  p{
+    font-size: 1rem;
   }
 }
