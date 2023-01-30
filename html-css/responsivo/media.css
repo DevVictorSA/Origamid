@@ -1,16 +1,11 @@
 @charset "UTF-8";
 
-@media (max-width: 500px){
+@media (max-width: 600px){
   .header{
     display: block;
   }
 
-  .menu{
-    display: none;
-  }
-
-  .conteudo{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+  .introducao{
+    grid-template-columns: 1fr;
   }
 }
