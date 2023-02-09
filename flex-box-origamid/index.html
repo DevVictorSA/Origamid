@@ -20,40 +20,45 @@
         <nav class="menu-header">
             <a href="/">FlexBlog</a>
             <ul>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Produtos</a></li>
-                <li><a href="/">Preço</a></li>
-                <li><a href="/">Qualidade</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#prdutos">Produtos</a></li>
+                <li><a href="#preco">Preço</a></li>
+                <li><a href="#qualidade">Qualidade</a></li>
             </ul>
         </nav>
     </header>
     <h1 class="titulo-principal-h1">Novos valores e <br> Propriedades de CSS </h1>
     <main>
         <section class="sobre" id="sobre">
-            <h1>Sobre</h1>
-            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
-            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
-            <img src="img/sobre1.jpg" alt="mulher">
-            <img src="img/sobre2.jpg" alt="desenho">
+            <div class="sobre-info">
+                <h1>Sobre</h1>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+            </div>
+            <div class="sobre-img"><img src="img/sobre1.jpg" alt="mulher"></div>
+            <div class="sobre-img"><img src="img/sobre2.jpg" alt="desenho"></div>
         </section>
         <section class="produtos" id="produtos">
-            <div class="box1">
-                <h1 class="titulo-box1">Purple</h1>
-                <img src="img/produtos1.jpg" alt="purple">
-            </div>
-            <div class="box2">
-                <h1 class="titulo-box2">Purple</h1>
-                <img src="img/produtos2.jpg" alt="Pink">
-            </div>
-            <div class="box1">
-                <h1 class="titulo-box3">Purple</h1>
-                <img src="img/produtos3.jpg" alt="Blue">
+            <h1>Produtos</h1>
+            <div class="produtos-container">
+                <div class="box1">
+                    <h1 class="titulo-box1">Purple</h1>
+                    <img src="img/produtos1.jpg" alt="purple">
+                </div>
+                <div class="box2">
+                    <h1 class="titulo-box2">Purple</h1>
+                    <img src="img/produtos2.jpg" alt="Pink">
+                </div>
+                <div class="box1">
+                    <h1 class="titulo-box3">Purple</h1>
+                    <img src="img/produtos3.jpg" alt="Blue">
+                </div>
             </div>
         </section>
         <section class="preco" id="preco">
             <div class="preco1">
                 <h1 class="preco-titulo">Cobre</h1>
-                <span>R$19</span>
+                <span><sup>R$</sup>19</span>
                 <ul class="preco-lista">
                     <li>Planos Ilimitados</li>
                     <li>Acesso Restrito</li>
@@ -64,7 +69,7 @@
             </div>
             <div class="preco2">
                 <h1 class="preco-titulo">Prata</h1>
-                <span>R$39</span>
+                <span><sup>R$</sup>39</span>
                 <ul class="preco-lista">
                     <li>Planos Ilimitados</li>
                     <li>Acesso Restrito</li>
@@ -76,7 +81,7 @@
             </div>
             <div class="preco3">
                 <h1 class="preco-titulo">Ouro</h1>
-                <span>R$79</span>
+                <span><sup>R$</sup>79</span>
                 <ul class="preco-lista">
                     <li>Planos Ilimitados</li>
                     <li>Acesso Restrito</li>
@@ -86,6 +91,24 @@
                     <li>Download dos Itens</li>
                 </ul>
                 <button>Comprar</button>
+            </div>
+        </section>
+        <section class="qualidade" id="qualidade">
+            <div class="qualidade-list1">
+                <ul>
+                    <li>
+                        <h1>Inteligente</h1>
+                        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+                    </li>
+                    <li>
+                        <h1>Compacto</h1>
+                        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+                    </li>
+                    <li>
+                        <h1>Econômico</h1>
+                        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
