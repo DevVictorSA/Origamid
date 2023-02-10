@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Nunito";
+    color:#222222;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
